@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD48BF562580EC5500BBD507 /* TitleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF552580EC5500BBD507 /* TitleCard.swift */; };
+		BD48BF592580EC7300BBD507 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF582580EC7300BBD507 /* NextButton.swift */; };
+		BD48BF5C2580EDFE00BBD507 /* CardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF5B2580EDFE00BBD507 /* CardBackground.swift */; };
+		BD48BF5F2580EE4300BBD507 /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF5E2580EE4300BBD507 /* CardLabel.swift */; };
+		BD48BF622580EFEF00BBD507 /* GenderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF612580EFEF00BBD507 /* GenderCard.swift */; };
+		BD48BF652580F05A00BBD507 /* AgeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF642580F05A00BBD507 /* AgeCard.swift */; };
+		BD48BF682580F06800BBD507 /* HeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF672580F06800BBD507 /* HeightCard.swift */; };
+		BD48BF6B2580F07800BBD507 /* WeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF6A2580F07800BBD507 /* WeightCard.swift */; };
+		BD48BF6E2580F08A00BBD507 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF6D2580F08A00BBD507 /* ResultCard.swift */; };
+		BD48BF712580F58A00BBD507 /* ErrorLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF702580F58A00BBD507 /* ErrorLabel.swift */; };
+		BD48BF742580F62400BBD507 /* Gender.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF732580F62400BBD507 /* Gender.swift */; };
+		BD48BF772581301E00BBD507 /* CalorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD48BF762581301E00BBD507 /* CalorieModel.swift */; };
+		BD60BD23257FF98D0003C139 /* CalorieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60BD22257FF98D0003C139 /* CalorieApp.swift */; };
+		BD60BD25257FF98D0003C139 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD60BD24257FF98D0003C139 /* ContentView.swift */; };
+		BD60BD27257FF98E0003C139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60BD26257FF98E0003C139 /* Assets.xcassets */; };
+		BD60BD2A257FF98E0003C139 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD60BD29257FF98E0003C139 /* Preview Assets.xcassets */; };
+		BD7CC72B258136DE0095CBE8 /* SliderValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CC72A258136DE0095CBE8 /* SliderValue.swift */; };
+		BD7CC72E2581473F0095CBE8 /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7CC72D2581473F0095CBE8 /* CalculateButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD48BF552580EC5500BBD507 /* TitleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCard.swift; sourceTree = "<group>"; };
+		BD48BF582580EC7300BBD507 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		BD48BF5B2580EDFE00BBD507 /* CardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackground.swift; sourceTree = "<group>"; };
+		BD48BF5E2580EE4300BBD507 /* CardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
+		BD48BF612580EFEF00BBD507 /* GenderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderCard.swift; sourceTree = "<group>"; };
+		BD48BF642580F05A00BBD507 /* AgeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCard.swift; sourceTree = "<group>"; };
+		BD48BF672580F06800BBD507 /* HeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCard.swift; sourceTree = "<group>"; };
+		BD48BF6A2580F07800BBD507 /* WeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCard.swift; sourceTree = "<group>"; };
+		BD48BF6D2580F08A00BBD507 /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
+		BD48BF702580F58A00BBD507 /* ErrorLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLabel.swift; sourceTree = "<group>"; };
+		BD48BF732580F62400BBD507 /* Gender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gender.swift; sourceTree = "<group>"; };
+		BD48BF762581301E00BBD507 /* CalorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieModel.swift; sourceTree = "<group>"; };
+		BD60BD1F257FF98D0003C139 /* Calorie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calorie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD60BD22257FF98D0003C139 /* CalorieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieApp.swift; sourceTree = "<group>"; };
+		BD60BD24257FF98D0003C139 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BD60BD26257FF98E0003C139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD60BD29257FF98E0003C139 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BD60BD2B257FF98E0003C139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD7CC72A258136DE0095CBE8 /* SliderValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderValue.swift; sourceTree = "<group>"; };
+		BD7CC72D2581473F0095CBE8 /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD60BD1C257FF98D0003C139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD60BD16257FF98D0003C139 = {
+			isa = PBXGroup;
+			children = (
+				BD60BD21257FF98D0003C139 /* Calorie */,
+				BD60BD20257FF98D0003C139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD60BD20257FF98D0003C139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD60BD1F257FF98D0003C139 /* Calorie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD60BD21257FF98D0003C139 /* Calorie */ = {
+			isa = PBXGroup;
+			children = (
+				BD60BD22257FF98D0003C139 /* CalorieApp.swift */,
+				BD60BD34257FF9B40003C139 /* Model */,
+				BD60BD32257FF9A50003C139 /* View */,
+				BD60BD26257FF98E0003C139 /* Assets.xcassets */,
+				BD60BD2B257FF98E0003C139 /* Info.plist */,
+				BD60BD28257FF98E0003C139 /* Preview Content */,
+			);
+			path = Calorie;
+			sourceTree = "<group>";
+		};
+		BD60BD28257FF98E0003C139 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BD60BD29257FF98E0003C139 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BD60BD32257FF9A50003C139 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BDEC517625828C5B006D4775 /* Components */,
+				BD60BD24257FF98D0003C139 /* ContentView.swift */,
+				BD48BF552580EC5500BBD507 /* TitleCard.swift */,
+				BD48BF612580EFEF00BBD507 /* GenderCard.swift */,
+				BD48BF642580F05A00BBD507 /* AgeCard.swift */,
+				BD48BF672580F06800BBD507 /* HeightCard.swift */,
+				BD48BF6A2580F07800BBD507 /* WeightCard.swift */,
+				BD48BF6D2580F08A00BBD507 /* ResultCard.swift */,
+				BD48BF702580F58A00BBD507 /* ErrorLabel.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BD60BD34257FF9B40003C139 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BD48BF732580F62400BBD507 /* Gender.swift */,
+				BD48BF762581301E00BBD507 /* CalorieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDEC517625828C5B006D4775 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BD48BF582580EC7300BBD507 /* NextButton.swift */,
+				BD48BF5B2580EDFE00BBD507 /* CardBackground.swift */,
+				BD48BF5E2580EE4300BBD507 /* CardLabel.swift */,
+				BD7CC72A258136DE0095CBE8 /* SliderValue.swift */,
+				BD7CC72D2581473F0095CBE8 /* CalculateButton.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD60BD1E257FF98D0003C139 /* Calorie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD60BD2E257FF98E0003C139 /* Build configuration list for PBXNativeTarget "Calorie" */;
+			buildPhases = (
+				BD60BD1B257FF98D0003C139 /* Sources */,
+				BD60BD1C257FF98D0003C139 /* Frameworks */,
+				BD60BD1D257FF98D0003C139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calorie;
+			productName = Calorie;
+			productReference = BD60BD1F257FF98D0003C139 /* Calorie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD60BD17257FF98D0003C139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BD60BD1E257FF98D0003C139 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = BD60BD1A257FF98D0003C139 /* Build configuration list for PBXProject "Calorie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD60BD16257FF98D0003C139;
+			productRefGroup = BD60BD20257FF98D0003C139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD60BD1E257FF98D0003C139 /* Calorie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD60BD1D257FF98D0003C139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD60BD2A257FF98E0003C139 /* Preview Assets.xcassets in Resources */,
+				BD60BD27257FF98E0003C139 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD60BD1B257FF98D0003C139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD48BF682580F06800BBD507 /* HeightCard.swift in Sources */,
+				BD48BF712580F58A00BBD507 /* ErrorLabel.swift in Sources */,
+				BD60BD25257FF98D0003C139 /* ContentView.swift in Sources */,
+				BD48BF622580EFEF00BBD507 /* GenderCard.swift in Sources */,
+				BD7CC72B258136DE0095CBE8 /* SliderValue.swift in Sources */,
+				BD60BD23257FF98D0003C139 /* CalorieApp.swift in Sources */,
+				BD48BF5F2580EE4300BBD507 /* CardLabel.swift in Sources */,
+				BD48BF592580EC7300BBD507 /* NextButton.swift in Sources */,
+				BD48BF562580EC5500BBD507 /* TitleCard.swift in Sources */,
+				BD48BF742580F62400BBD507 /* Gender.swift in Sources */,
+				BD7CC72E2581473F0095CBE8 /* CalculateButton.swift in Sources */,
+				BD48BF6E2580F08A00BBD507 /* ResultCard.swift in Sources */,
+				BD48BF6B2580F07800BBD507 /* WeightCard.swift in Sources */,
+				BD48BF772581301E00BBD507 /* CalorieModel.swift in Sources */,
+				BD48BF5C2580EDFE00BBD507 /* CardBackground.swift in Sources */,
+				BD48BF652580F05A00BBD507 /* AgeCard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD60BD2C257FF98E0003C139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD60BD2D257FF98E0003C139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD60BD2F257FF98E0003C139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Calorie/Preview Content\"";
+				DEVELOPMENT_TEAM = JJ9787945H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Calorie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tk.merisen.Calorie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD60BD30257FF98E0003C139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Calorie/Preview Content\"";
+				DEVELOPMENT_TEAM = JJ9787945H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Calorie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tk.merisen.Calorie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD60BD1A257FF98D0003C139 /* Build configuration list for PBXProject "Calorie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD60BD2C257FF98E0003C139 /* Debug */,
+				BD60BD2D257FF98E0003C139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD60BD2E257FF98E0003C139 /* Build configuration list for PBXNativeTarget "Calorie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD60BD2F257FF98E0003C139 /* Debug */,
+				BD60BD30257FF98E0003C139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD60BD17257FF98D0003C139 /* Project object */;
+}
